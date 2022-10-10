@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:wght@700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+ display: flex;
+ align-items: center;
+ background-color: black;
+ height: 70px;
+ color: red;
+ font-size: 20px;
+ font-weight: bolder;
+ padding: 0 15px;
+ list-style: none;
+}
+
+.container{
+  min-height: auto;
+  background-color: white;
+  color: black;
+  display: flex;
+  width: 90%;
+  margin: 23px auto;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url('bg.jpg');
+}
+
+strong{
+  color: yellow;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+video{
+  width: 70%;
+  margin-left: 15vw;
+}
+
+section{
+  border: 1px solid;
+}
